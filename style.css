@@ -1,0 +1,31 @@
+:root{
+    --cor-de-fundo: rgb(104, 113, 71);
+    --cor-de-texto: rgb(197, 190, 190);
+    --cor-de-destaque: orange;
+
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+}
+
+li{
+    color: var(--cor-de-texto);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    color: var(--cor-de-texto);
+}
+
+*{
+    margin: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px;
+}
